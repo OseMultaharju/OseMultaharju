@@ -107,14 +107,27 @@ These are the tools I've actually used to build something real — not a list of
 
 ## Looking for
 
-I'm open to discussions about:
+I'm specifically interested in these roles, where my operational security background translates most directly:
 
-- **Entry-level cybersecurity positions** (SOC analyst, junior security engineer, security operations)
-- **Trainee or apprenticeship roles** where my mature judgement and physical-security background bring something useful alongside the technical skills I'm building
-- **Open-source collaboration** on privacy and security tools
-- **Internships** in Finland or remote
+### 🛡️ SOC Analyst (Tier 1 / Tier 2)
+Twenty years of shift work in cash-in-transit means I'm already used to operations-centre rhythms — long focus windows, alert handling under time pressure, clear escalation when something looks off. I'm building the technical layer (log analysis, SIEM concepts, incident triage) on top of that operational discipline.
 
-Career changers from operational backgrounds often bring perspective that pure computer-science graduates don't have. If you're hiring and that sounds interesting, I'd love to talk.
+### 👁️ Insider Threat Analysis
+Two decades watching the inside of high-value security operations means I know what abnormal behaviour actually looks like — not from a textbook, but from having walked past it. Behavioural baselines and policy violations were the language I worked in every day.
+
+### 🔓 Physical Penetration Testing
+This one is obvious. I know how physical security is supposed to work because I built it for a living. I know where it tends to fail. I know the difference between a control that looks good on paper and one that holds up at three in the morning when nobody's watching.
+
+### 📚 Security Operations & Security Awareness Training
+Translating between operational reality and policy is something I did constantly in my previous career. Translating between technical risk and the way employees actually behave is the same skill in different clothes.
+
+---
+
+### What I bring
+
+Career changers from operational security backgrounds aren't common in cybersecurity. The combination of two decades of adversarial thinking with the technical work you can see in this profile is unusual. If your team is hiring at the entry level and that sounds like a useful perspective, I'd be glad to talk.
+
+I'm based in Finland, available for on-site or hybrid roles in the Helsinki region, and open to remote.
 
 ## Contact
 
