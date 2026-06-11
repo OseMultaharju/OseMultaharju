@@ -16,7 +16,7 @@
 
 ## About me
 
-I'm a 48-year-old career changer with over **two decades of professional security experience** — structural security, retail loss prevention, and cash-in-transit. After spending most of my working life protecting physical assets and people, I'm now studying **Information Technology** at Metropolia University of Applied Sciences and moving into **digital security**.
+I'm a 48-year-old career changer with over **two decades of professional security experience** — structural security, retail loss prevention, and cash-in-transit. After spending most of my working life protecting physical assets and people, I'm now studying **Information Technology** at Metropolia University of Applied Sciences and moving into **cybersecurity**.
 
 Physical security and digital security turn out to share more than I expected. Both require thinking adversarially. Both require defence in depth. Both punish you for assuming users will behave the way you wish they would. The vocabulary is different; the discipline is the same.
 
@@ -125,7 +125,7 @@ Translating between operational reality and policy is something I did constantly
 
 ### What I bring
 
-Career changers from operational security backgrounds aren't common in digital security. The combination of two decades of adversarial thinking with the technical work you can see in this profile is unusual. If your team is hiring at the entry level and that sounds like a useful perspective, I'd be glad to talk.
+Career changers from operational security backgrounds aren't common in cybersecurity. The combination of two decades of adversarial thinking with the technical work you can see in this profile is unusual. If your team is hiring at the entry level and that sounds like a useful perspective, I'd be glad to talk.
 
 I'm based in Finland, available for on-site or hybrid roles in the Helsinki region, and open to remote.
 
