@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Ose 👋</h1>
 
 <p align="center">
-  <em>20+ years in physical security. Now building software for digital privacy.</em>
+  <em>20+ years in physical security. Now moving into cybersecurity.</em>
 </p>
 
 <p align="center">
@@ -61,7 +61,7 @@ Twenty years carrying responsibility for people's physical safety teaches you a 
 - **Documentation matters.** When something goes wrong, somebody needs to understand what you set up and why.
 - **Honesty about limitations builds trust.** Promising what you can't deliver is worse than promising less.
 
-I'm bringing all of that to software.
+I'm bringing all of that to cybersecurity.
 
 ## Technical skills
 
@@ -82,12 +82,13 @@ These are the tools I've actually used to build something real — not a list of
 </td>
 <td valign="top" width="33%">
 
-**Privacy & Anonymity**
-- Tor network architecture
-- Pluggable transports (Snowflake, obfs4)
-- DNS leak prevention
-- Sandboxed execution (Podman, Bubblewrap)
-- LUKS2 + Argon2id
+**Offensive Security**
+- Penetration testing methodology
+- Kali Linux (native and WSL2)
+- nmap, Wireshark, tcpdump
+- Hashcat (GPU-accelerated WPA cracking, ~423 kH/s on RTX A3000)
+- Monitor mode + packet injection (Wi-Fi handshake capture)
+- LLM-orchestrated tooling with human-in-the-loop safety gates
 
 </td>
 <td valign="top" width="33%">
@@ -105,11 +106,13 @@ These are the tools I've actually used to build something real — not a list of
 
 ## Areas I'm interested in
 
-- **Operational security** for journalists, activists, and high-risk users
-- **Privacy-preserving systems** — building tools that protect people who need protecting
-- **Security engineering** at the boundary between physical and digital
-- **Tor and anonymity networks**
-- **Live operating systems** (Tails, Qubes, Whonix)
+My focus is cybersecurity as a direct continuation of two decades in operational security — not software engineering for its own sake. The projects above are the technical means; the destination is security work.
+
+- **Penetration testing and offensive security** — adversarial testing as a defensive discipline, the area my Gemini Pentest Pro project sits in
+- **Security operations** — log analysis, alert triage, incident response, the cybersecurity continuation of an operations-centre career
+- **Vulnerability assessment and risk analysis** — translating technical findings into operational risk that decision-makers can act on
+- **Physical-to-digital security continuum** — insider threat, social engineering, red-team operations and physical penetration testing, where the operational security I built for a living translates most directly
+- **Threat modelling and defensive architecture** — STRIDE, layered defence, fail-closed design as habits rather than checklists
 
 ## GitHub stats
 
