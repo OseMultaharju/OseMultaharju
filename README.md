@@ -29,7 +29,7 @@ The work you see here reflects that transition.
 
 ### 🛡️ [GhostlyCasper OS](https://github.com/OseMultaharju/ghostlycasper-os)
 
-A privacy-first amnesic live operating system, built from scratch as my Innovation Project at Metropolia. Boots from a USB stick, routes every byte of traffic through Tor, forgets everything at shutdown.
+A privacy-first amnesic live operating system, built from scratch as my final-year project at Metropolia. Boots from a USB stick, routes every byte of traffic through Tor, forgets everything at shutdown.
 
 - **7,700+ lines of Bash**, one maintainable build script
 - **50+ iterations** with documented security audits between versions
