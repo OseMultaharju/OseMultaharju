@@ -8,6 +8,9 @@
   <a href="https://github.com/OseMultaharju/ghostlycasper-os">
     <img src="https://img.shields.io/badge/Project-GhostlyCasper%20OS-1a3a5c?style=for-the-badge&logo=tor" alt="GhostlyCasper OS">
   </a>
+  <a href="https://github.com/OseMultaharju/gemini-pentest-pro">
+    <img src="https://img.shields.io/badge/Project-Gemini%20Pentest%20Pro-2c5f8a?style=for-the-badge&logo=googlegemini" alt="Gemini Pentest Pro">
+  </a>
   <img src="https://img.shields.io/badge/Status-Career%20Transition-2c5f8a?style=for-the-badge" alt="Career Transition">
   <img src="https://img.shields.io/badge/Location-Finland-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Finland">
 </p>
@@ -35,6 +38,19 @@ A privacy-first amnesic live operating system, built from scratch as my Innovati
 - **Honest about what it doesn't protect against**
 
 If you're looking for an example of how I approach engineering — the project's [development history](https://github.com/OseMultaharju/ghostlycasper-os/blob/main/docs/development-history.md) walks through every wrong turn I took and what I learned from it.
+
+### 🤖 [Gemini Pentest Pro](https://github.com/OseMultaharju/gemini-pentest-pro)
+
+An LLM-driven, human-in-the-loop penetration-testing assistant for Kali Linux. The Google Gemini API orchestrates dozens of standard security tools; I confirm every command that touches the "gray area" before it runs. My Innovation Project at Metropolia.
+
+- **Brain + Hands architecture** — Gemini reasons over user intent, deterministic Python wrappers execute the actual commands
+- **Safety gate is in the code, not the model** — a regex-based validator that classifies every command (hard-block / soft-block / per-tool risk level), layered on top of the LLM's own moderation rather than relying on it
+- **Two hardware profiles** — field unit (X270, native Kali, monitor mode + injection) and compute unit (P1 Gen 5, WSL2 + RTX A3000, ~423 kH/s Hashcat against WPA handshakes)
+- **Decoupled HTML reporter** — solves the token-window problem on large nmap/Wireshark outputs; ANSI color codes become real HTML so the report looks like a terminal, not an AI summary
+- **Verified end-to-end** — full recon chain on real targets, ethical self-restraint on ambiguous ones, and a complete kill-chain on an intentionally-vulnerable IoT smart-home testbed
+- **Authorized use only** — designed for labs, CTF, and engagements with written permission; the HITL prompts are not optional
+
+For the full project vision and ethical rationale, see [PROJECT_VISION.md](https://github.com/OseMultaharju/gemini-pentest-pro/blob/main/PROJECT_VISION.md) (in Finnish).
 
 ## Background
 
@@ -139,6 +155,9 @@ For project-related discussions, the best place is GitHub directly — issues, d
   </a>
   <a href="https://github.com/OseMultaharju/ghostlycasper-os">
     <img src="https://img.shields.io/badge/See%20my%20work-GhostlyCasper%20OS-2c5f8a?style=for-the-badge&logo=github" alt="GhostlyCasper OS">
+  </a>
+  <a href="https://github.com/OseMultaharju/gemini-pentest-pro">
+    <img src="https://img.shields.io/badge/and-Gemini%20Pentest%20Pro-1a3a5c?style=for-the-badge&logo=github" alt="Gemini Pentest Pro">
   </a>
 </p>
 
