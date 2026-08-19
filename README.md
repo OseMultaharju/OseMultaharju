@@ -31,7 +31,7 @@ The work you see here reflects that transition.
 
 A privacy-first amnesic live operating system, built from scratch as my final-year project at Metropolia. Boots from a USB stick, routes every byte of traffic through Tor, forgets everything at shutdown.
 
-- **7,700+ lines of Bash**, one maintainable build script
+- **8,800+ lines of Bash**, one maintainable build script
 - **50+ iterations** with documented security audits between versions
 - **Four threat profiles** for different user contexts
 - **Hardware-tested** on real ThinkPad laptops, not just VMs
