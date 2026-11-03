@@ -44,10 +44,10 @@ If you're looking for an example of how I approach engineering — the project's
 An LLM-driven, human-in-the-loop penetration-testing assistant for Kali Linux. The Google Gemini API orchestrates dozens of standard security tools; I confirm every command that touches the "gray area" before it runs. My Innovation Project at Metropolia.
 
 - **Brain + Hands architecture** — Gemini reasons over user intent, deterministic Python wrappers execute the actual commands
-- **Safety gate is in the code, not the model** — a regex-based validator that classifies every command (hard-block / soft-block / per-tool risk level), layered on top of the LLM's own moderation rather than relying on it
+- **Safety gate is in the code, not the model** — a validator that matches each command against literal strings (hard-block / soft-block / per-tool risk level). The model's own content moderation is deliberately disabled (BLOCK_NONE) to avoid false refusals on legitimate scanning, so this gate plus a human-in-the-loop are the real control
 - **Two hardware profiles** — field unit (X270, native Kali, monitor mode + injection) and compute unit (P1 Gen 5, WSL2 + RTX A3000, ~423 kH/s Hashcat against WPA handshakes)
 - **Decoupled HTML reporter** — solves the token-window problem on large nmap/Wireshark outputs; ANSI color codes become real HTML so the report looks like a terminal, not an AI summary
-- **Verified end-to-end** — full recon chain on real targets, ethical self-restraint on ambiguous ones, and a complete kill-chain on an intentionally-vulnerable IoT smart-home testbed
+- **Tested end-to-end** — recon chain on authorized targets, ethical self-restraint on ambiguous ones, and a full attack chain run against an intentionally-vulnerable IoT smart-home testbed
 - **Authorized use only** — designed for labs, CTF, and engagements with written permission; the HITL prompts are not optional
 
 For the full project vision and ethical rationale, see [PROJECT_VISION.md](https://github.com/OseMultaharju/gemini-pentest-pro/blob/main/PROJECT_VISION.md) (in Finnish).
@@ -129,7 +129,7 @@ My focus is cybersecurity as a direct continuation of two decades in operational
 I'm specifically interested in these roles, where my operational security background translates most directly:
 
 ### 🛡️ SOC Analyst (Tier 1 / Tier 2)
-Twenty years of shift work in cash-in-transit means I'm already used to operations-centre rhythms — long focus windows, alert handling under time pressure, clear escalation when something looks off. I'm building the technical layer (log analysis, SIEM concepts, incident triage) on top of that operational discipline.
+Twenty years of shift work in security, the last 17 in cash-in-transit at Loomis, mean I'm already used to operations-centre rhythms — long focus windows, alert handling under time pressure, clear escalation when something looks off. I'm building the technical layer (log analysis, SIEM concepts, incident triage) on top of that operational discipline.
 
 ### 👁️ Insider Threat Analysis
 Two decades watching the inside of high-value security operations means I know what abnormal behaviour actually looks like — not from a textbook, but from having walked past it. Behavioural baselines and policy violations were the language I worked in every day.
