@@ -19,7 +19,7 @@
 
 ## About me
 
-I'm a 48-year-old career changer with over **two decades of professional security experience** — structural security, retail loss prevention, and cash-in-transit. After spending most of my working life protecting physical assets and people, I'm now studying **Information Technology** at Metropolia University of Applied Sciences and moving into **cybersecurity**.
+I'm a 48-year-old career changer with over **two decades of professional security experience** — structural security, retail loss prevention, and cash-in-transit. After spending most of my working life protecting physical assets and people, I'm now studying **Information and Communication Technology** at Metropolia University of Applied Sciences and moving into **cybersecurity**.
 
 Physical security and digital security turn out to share more than I expected. Both require thinking adversarially. Both require defence in depth. Both punish you for assuming users will behave the way you wish they would. The vocabulary is different; the discipline is the same.
 
@@ -31,7 +31,7 @@ The work you see here reflects that transition.
 
 A privacy-first amnesic live operating system, built from scratch as my final-year project at Metropolia. Boots from a USB stick, routes every byte of traffic through Tor, forgets everything at shutdown.
 
-- **8,800+ lines of Bash**, one maintainable build script
+- **15,900+ lines of Bash**, one maintainable build script
 - **50+ iterations** with documented security reviews between versions
 - **Four threat profiles** for different user contexts
 - **Hardware-tested** on real ThinkPad laptops, not just VMs
