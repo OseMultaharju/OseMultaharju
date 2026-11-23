@@ -5,9 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/OseMultaharju/ghostlycasper-os">
-    <img src="https://img.shields.io/badge/Project-GhostlyCasper%20OS-1a3a5c?style=for-the-badge&logo=tor" alt="GhostlyCasper OS">
-  </a>
+  <img src="https://img.shields.io/badge/Project-GhostlyCasper%20OS-1a3a5c?style=for-the-badge&logo=tor" alt="GhostlyCasper OS">
   <a href="https://github.com/OseMultaharju/gemini-pentest-pro">
     <img src="https://img.shields.io/badge/Project-Gemini%20Pentest%20Pro-2c5f8a?style=for-the-badge&logo=googlegemini" alt="Gemini Pentest Pro">
   </a>
@@ -27,9 +25,11 @@ The work you see here reflects that transition.
 
 ## What I'm working on
 
-### 🛡️ [GhostlyCasper OS](https://github.com/OseMultaharju/ghostlycasper-os)
+### 🛡️ GhostlyCasper OS
 
 A privacy-first amnesic live operating system, built from scratch as my final-year project at Metropolia. Boots from a USB stick, routes every byte of traffic through Tor, forgets everything at shutdown.
+
+*The repository stays private until the thesis has been submitted and graded. Happy to walk through the code and the development history on request.*
 
 - **15,900+ lines of Bash**, one maintainable build script
 - **50+ iterations** with documented security reviews between versions
@@ -37,7 +37,7 @@ A privacy-first amnesic live operating system, built from scratch as my final-ye
 - **Hardware-tested** on real ThinkPad laptops, not just VMs
 - **Honest about what it doesn't protect against**
 
-If you're looking for an example of how I approach engineering — the project's [development history](https://github.com/OseMultaharju/ghostlycasper-os/blob/main/docs/development-history.md) walks through every wrong turn I took and what I learned from it.
+If you're looking for an example of how I approach engineering, the project's development history documents every wrong turn I took and what I learned from it.
 
 ### 🤖 [Gemini Pentest Pro](https://github.com/OseMultaharju/gemini-pentest-pro)
 
@@ -156,11 +156,8 @@ For project-related discussions, the best place is GitHub directly — issues, d
   <a href="mailto:156774193+OseMultaharju@users.noreply.github.com">
     <img src="https://img.shields.io/badge/Email-via%20GitHub-1a3a5c?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email">
   </a>
-  <a href="https://github.com/OseMultaharju/ghostlycasper-os">
-    <img src="https://img.shields.io/badge/See%20my%20work-GhostlyCasper%20OS-2c5f8a?style=for-the-badge&logo=github" alt="GhostlyCasper OS">
-  </a>
   <a href="https://github.com/OseMultaharju/gemini-pentest-pro">
-    <img src="https://img.shields.io/badge/and-Gemini%20Pentest%20Pro-1a3a5c?style=for-the-badge&logo=github" alt="Gemini Pentest Pro">
+    <img src="https://img.shields.io/badge/See%20my%20work-Gemini%20Pentest%20Pro-1a3a5c?style=for-the-badge&logo=github" alt="Gemini Pentest Pro">
   </a>
 </p>
 
